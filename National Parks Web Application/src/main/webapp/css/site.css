@@ -1,0 +1,185 @@
+<link href="https://fonts.googleapis.com/css?family=Meie+Script&display=swap" rel="stylesheet">
+html {
+	font-family: "Helvetica";
+}
+
+body{
+	background-color:#fbfbfb
+}
+#headerLinks {
+	list-style: none;
+	display: flex;
+}
+#headerLinks li {
+	padding: 10px;
+}
+
+#logo {
+	width: 45%;
+	height: auto;
+}
+.navigationBar{
+	background:white;
+	border-bottom:1px lightgrey solid;
+}
+
+ a.button {
+display: inline-block;
+  padding: 5px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #497445;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  margin-top:15px;
+}
+
+
+.navigation-bar  li a:hover{
+	text-decoration: none;
+  	color: #000000;
+  	background-color: #959B9C;
+}
+
+
+a.button:hover {background-color: #3e8e41}
+
+a.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+error {
+	font-color: red;
+}
+.homePageImg{
+	background-color:#fbfbfb;
+	padding-right: 0;
+}
+
+.individualPark {
+	margin-top:15px;
+	margin-right: 0px;
+	background-color: #497445;
+	border-radius: 10px;
+	color:#ddd
+}
+.homeParkImage{
+	border-radius:10px 0px 0px 10px;
+}
+
+.homePageParkName {
+	font-weight: bold;
+}
+.nameHeading {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	color:#2d2d2d;
+	padding-bottom:15px;
+}
+.parkImage{
+	width:100%;
+	border-radius:10px 0 0 10px;
+}
+.textContainer{
+	margin-top:15px;
+}
+.parkInformation{
+	background-color: #497445;
+	border-radius:10px;
+	}
+.parkImageWrapper{
+	background-color:#fbfbfb;
+	padding-right: 0;
+    padding-left: 0;
+}
+.parkInfo{
+	color:#fbfbfb;
+}
+.qoute{
+	margin-top:25px;
+}
+
+.weather {
+	padding-top:15px;
+}
+ .weatherImage {
+	width: 150px;
+	height: 150px;
+} 
+.weatherDay{
+	background:white;
+-webkit-box-shadow: 0px 3px 11px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 11px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 11px -10px rgba(0,0,0,0.75);
+	padding:15px;
+	border-radius:10px;
+}
+.weather .col-xs-2:first-of-type{
+	width:33%
+}
+.weatherDay:first-of-type img {
+	width:100%;
+	height:auto;
+}
+.todayForecast {
+	margin-top: 25px;
+	border-top:1px lightgrey solid;
+	padding-top: 15px;
+}
+.surveyHeading {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+
+.survey {
+	width: 75%;
+    margin: 0 auto;
+}
+.survey .control-label{
+	text-align:left;
+}
+
+.surveyButton {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.favoriteParkImage {
+	width:100%;
+}
+.favoriteParkName {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.surveysSubmitted {
+	text-align: center;
+	font-size: 15px;
+}
+
+.favPark {
+	background-color: #83888B;
+	border-radius: 10px;
+}
+.quoteFont {
+	font-family: 'Meie Script', cursive;
+}
+
+#footer{
+	padding:20px;
+	text-align:center;
+}
